@@ -1,0 +1,129 @@
+{
+
+  "novelty-items": [
+    {"name":"Succulent Bird House","id":1,"cost":33}
+  ],
+
+  "hanging-sun": [
+    {"name":"14\" Awesome Sun Combo ","id":2,"cost":60},
+    {"name":"12\" Petunia trailing Full Color Mix ","id":3,"cost":33},
+    {"name":"12.8\" Ivy Geranium-Burgundy Bi-color ","id":4,"cost":33},
+    {"name":"12.8\" Geranium Calliope Dark Red ","id":5,"cost":33},
+    {"name":"12.8\" Lofos Compact Rose ","id":6,"cost":33},
+    {"name":"11.85\" Thunbergia - Yellow ","id":7,"cost":33},
+    {"name":"11\" Petunia Trailing Raspberry Blast ","id":8,"cost":27}
+  ],
+
+  "hanging-part": [
+    {"name":"13\" Dragon Wing Begonia - Red ","id":9,"cost":33},
+    {"name":"12.8\" New Guinea Sweet Cherry Bicolor","id":10,"cost":33},
+    {"name":"12.8\" New Guinea Mixed Colors - New! ","id":11,"cost":33}
+  ],
+
+  "hanging-shade": [
+    {"name":"12.8\" Begonia Reiger Mix ","id":12,"cost":33},
+    {"name":"12\" Impatiens Mix","id":13,"cost":33},
+    {"name":"12\" Fuchsia Red/Purple ","id":14,"cost":27},
+    {"name":"12\" Torenia Purple Moon ","id":15,"cost":27}
+  ],
+
+  "patio-sun": [
+    {"name":"16\" Awesome Sun Combo Patio Tub ","id":16,"cost":60},
+    {"name":"11\" Patio Tub Geranium Zonal Pink","id":17,"cost":33},
+    {"name":"11\" Patio Tub Geranium Zonal Red ","id":18,"cost":33}
+  ],
+
+  "patio-part": [
+    {"name":"16\" Begonia Tub - Mix - Shade ","id":19,"cost":60},
+    {"name":"16\" Tub Whopper Begonia - Red New! ","id":20,"cost":60}
+  ],
+
+  "475-potted-annuals": [
+    {"name":"Begonia -Dragon Wing Red - trailing - Part Sun ","id":21,"cost":5},
+    {"name":"Bacopa - White - Sun ","id":22,"cost":5},
+    {"name":"Calibrachoa -Hula Soft Pink - Sun New color! ","id":23,"cost":5},
+    {"name":"Calibrachoa Yellow - Sun ","id":24,"cost":5},
+    {"name":"Dorotheanthus Mezoo Red trailing - Sun ","id":25,"cost":5},
+    {"name":"Geranium Zonal Coral - Sun ","id":26,"cost":5},
+    {"name":"Geranium Zonal Pink - Sun ","id":27,"cost":5},
+    {"name":"Geranium Zonal Red - Sun ","id":28,"cost":5},
+    {"name":"Geranium Zonal Violet - Sun ","id":29,"cost":5},
+    {"name":"Mini-Dahlia Scarlet/Yellow bicolor - Sun ","id":30,"cost":5},
+    {"name":"New Guinea Sweet Cherry bicolor-Sun/Shade ","id":31,"cost":5},
+    {"name":"New Guinea Sweet Orange bicolor-Sun/Shade ","id":32,"cost":5}
+  ],
+
+  "475-potted-vines-fillers": [
+    {"name":"Sweet Potato Vine Chartreuse - Sun ","id":33,"cost":5},
+    {"name":"Sweet Potato Vine Dark Leaf - Sun ","id":34,"cost":5},
+    {"name":"4\" Vinca Vine - Sun/Part Sun ","id":35,"cost":5},
+    {"name":"Spike (Dracaena) - Sun/Part Sun ","id":36,"cost":5}
+  ],
+
+  "475-potted-grasses": [
+    {"name":"Juncus Spiralis Big Twister - Sun/Part Sun ","id":37,"cost":6},
+    {"name":"Purple Fountain Grass - Sun ","id":38,"cost":6}
+  ],
+
+  "475-sun-coleus": [
+    {"name":"4.75\" Sun Coleus, Electric Lime - Sun/Shade ","id":39,"cost":5},
+    {"name":"4.75\" Sun Coleus, Red Head - Sun/Shade ","id":40,"cost":5}
+  ],
+
+  "annual-flats-sun": [
+    {"name":"Alyssum White - Sun ","id":41,"cost":21},
+    {"name":"Marigold Mix 8-12\" - Sun ","id":42,"cost":21},
+    {"name":"Pansy Mix - Sun/Part Sun ","id":43,"cost":21},
+    {"name":"Petunia Mix - Sun ","id":44,"cost":21},
+    {"name":"Salvia dwarf red - ht 9-12\" - Sun ","id":45,"cost":21},
+    {"name":"Snapdragon Liberty Mix(18\"-22\") - Sun ","id":46,"cost":21},
+    {"name":"Zinnia Profusion Dbl Mix - Sun ","id":47,"cost":21}
+  ],
+
+  "annual-flats-part": [
+    {"name":"Begonia Fibrous Mix - Part Sun/Shade ","id":48,"cost":21},
+    {"name":"Coleus Mix - Shade ","id":49,"cost":21},
+    {"name":"Impatiens Lipstick / Hot Pink - Shade ","id":50,"cost":21},
+    {"name":"Impatiens Mix - Shade ","id":51,"cost":21}
+  ],
+
+  "tomato-w-cage": [
+    {"name":"10\" Tomato - Sweet N\" Neat - Sun ","id":52,"cost":16}
+  ],
+
+  "475-veg": [
+    {"name":"Tomato Big Boy ","id":53,"cost":4},
+    {"name":"Tomato Cherry (Supersweet 100) ","id":54,"cost":4},
+    {"name":"Pepper Green Bell ","id":55,"cost":4},
+    {"name":"Pepper Jalapeno ","id":56,"cost":4}
+  ],
+
+  "4-herbs": [
+    {"name":"Cilantro","id":57,"cost":4},
+    {"name":"Sweet Basil","id":58,"cost":4}
+  ],
+
+  "strawberry": [
+    {"name":"10\" HB Strawberry Fragoo ","id":59,"cost":25}
+  ],
+
+  "perennials": [
+      {"name":"Astilbe Montgomery ","id":60,"cost":8},
+      {"name":"Daylily Pardon Me ","id":61,"cost":8},
+      {"name":"Dianthus Everlast Lavender Eye ","id":62,"cost":8},
+      {"name":"Echinacea Powwow Wild Berry ","id":63,"cost":8},
+      {"name":"Hosta Minuteman ","id":64,"cost":8},
+      {"name":"Hosta Rainforest Sunrise ","id":65,"cost":8},
+      {"name":"Leuca. Shasta Daisy Becky ","id":66,"cost":8},
+      {"name":"Monarda, Fireball Bee Balm ","id":67,"cost":8},
+      {"name":"Perovskia Russian Sage ","id":68,"cost":8},
+      {"name":"Phlox Emerald Cushion Blue ","id":69,"cost":8},
+      {"name":"Salvia Sensation Deep Blue ","id":70,"cost":8},
+      {"name":"Sedum Autumn Joy ","id":71,"cost":8}
+  ],
+
+  "perennial-grass": [
+      {"name":"Grass - Calamagrostis Avalanche","id":72,"cost":9},
+      {"name":"Grass - Calamagrostis, Karl Foerster ","id":73,"cost":9}
+  ]
+}
