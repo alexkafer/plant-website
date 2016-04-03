@@ -217,19 +217,6 @@ function addPlant(parent, plant) {
     setStep(2);
   }
 
-  function showConfirmation() {
-    document.getElementById("plant-cart").style.display = "block";
-    document.getElementById("plants").style.display = "none";
-    document.getElementById("confirmation").style.display = "block";
-
-    document.getElementById("contact").style.display = "none";
-    document.getElementById("nextBtn").style.display = "none";
-
-    $("#plant-cart :input").prop("disabled", true);
-    setStep(4);
-
-  }
-
   function showPlants() {
     document.getElementById("plant-cart").style.display = "none";
     document.getElementById("confirmation").style.display = "none";
@@ -354,7 +341,10 @@ function addPlant(parent, plant) {
               // Callback handler that will be called on success
               request.done(function (response, textStatus, jqXHR){
                   // Log a message to the console
-                  showConfirmation();
+
+                  document.getElementById("confirmation").innerHTML = "Thank you for your order! I will contact you shortly!"
+                  document.getElementById("confirmation").style.display = "block";
+
 
               });
 
@@ -365,6 +355,10 @@ function addPlant(parent, plant) {
                       "The following error occurred: "+
                       textStatus, errorThrown
                   );
+
+                  $("#confirmation").toggleClass("alert-success").toggleClass("alert-danger");
+                  document.getElementById("confirmation").innerHTML = "Something may have gone wrong... Please email <a href='mailto:me@alexkafer.com'>me@alexkafer.com</a> to confirm your order."
+                  document.getElementById("confirmation").style.display = "block";
               });
 
               // Callback handler that will be called regardless
@@ -372,6 +366,16 @@ function addPlant(parent, plant) {
               request.always(function () {
                   // Reenable the inputs
                   $inputs.prop("disabled", false);
+
+                  document.getElementById("plant-cart").style.display = "block";
+                  document.getElementById("plants").style.display = "none";
+
+
+                  document.getElementById("contact").style.display = "none";
+                  document.getElementById("nextBtn").style.display = "none";
+
+                  $("#plant-cart :input").prop("disabled", true);
+                  setStep(4);
               });
 
               // Prevent default posting of form
